@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skewedBox {
+    background: blueviolet;
+    padding: 100px 0;
+    transform: skew(0deg, -10deg) translateY(-120px);
+}
+
+.container {
+    padding: 150px 200px;
+    transform: skew(0deg, 10deg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container h1 {
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.container p {
+    color: white;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    width: 80%;
+}
+
+.sec2 {
+    padding: 0 200px 150px;
+    color: cyan;
+    font-family: arial;
+    text-align: right;
+}
